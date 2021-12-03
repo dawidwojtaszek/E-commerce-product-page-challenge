@@ -51,6 +51,6 @@ In this project I use Context Api for first time to manage states until now I al
 
 
 - Frontend Mentor - [@dawidwojtaszek](https://www.frontendmentor.io/profile/dawidwojtaszek)
-- Twitter - [@ydawidw22](https://twitter.com/dawidw22)
+- Twitter - [@dawidw22](https://twitter.com/dawidw22)
 
 
