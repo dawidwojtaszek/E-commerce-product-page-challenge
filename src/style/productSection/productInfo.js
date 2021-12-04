@@ -16,7 +16,7 @@ const SubTitle = styled.h3`
     margin-bottom: 5px;
 `
 const Title = styled.h2`
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin: 5px 0 20px 0;
 
@@ -52,7 +52,7 @@ const PriceInfo = styled.div`
     }
 `
 const Price = styled.span`
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 700;
 `
 const Tag = styled.div`
@@ -102,7 +102,7 @@ const QuantityBtn = styled.button`
     cursor: pointer;
     background: none;
     border:none;
-    padding: 0;
+    padding: 1rem;
     display: flex;
     align-items: center;
     &:hover{

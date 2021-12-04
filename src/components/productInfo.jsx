@@ -41,12 +41,12 @@ const ProductInfo = ({ product }) => {
             </Product.PriceInfo>
             <Product.AddCartBox>
                 <Product.QuantityBox>
-                    <Product.QuantityBtn aria-label="Minus">
-                        <img src={MinusIcon} onClick={handleMinusBtn} />
+                    <Product.QuantityBtn aria-label="Minus" onClick={handleMinusBtn} >
+                        <img src={MinusIcon} alt="minus" />
                     </Product.QuantityBtn>
                     <Product.Quantity>{counter}</Product.Quantity>
-                    <Product.QuantityBtn aria-label="Plus">
-                        <img src={PlusIcon} onClick={() => setCounter(counter + 1)} />
+                    <Product.QuantityBtn aria-label="Plus" onClick={() => setCounter(counter + 1)}>
+                        <img src={PlusIcon} alt="" />
                     </Product.QuantityBtn>
                 </Product.QuantityBox>
                 <Product.CartBtn onClick={() => setCart(currentCart + counter)} aria-label="Add to Cart">
