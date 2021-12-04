@@ -17,7 +17,7 @@ const CartComponent = () => {
                 currentCart === 0 ? (<EmptyCart>Your cart is empty</EmptyCart>) : (
                     <CartElementBox>
                         <CartElement />
-                        <Button width="90%">Checkout</Button>
+                        <Button width="90%" aria-label="Checkout">Checkout</Button>
                     </CartElementBox>
                 )
             }

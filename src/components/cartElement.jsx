@@ -41,7 +41,7 @@ const CartElement = () => {
                 </Element.Total>
             </Element.Info>
             <Element.RemoveBox onClick={() => setCart(0)}>
-                <Element.RemoveIcon src={RemoveIcon} />
+                <Element.RemoveIcon src={RemoveIcon} alt="remove" />
             </Element.RemoveBox>
         </Element>
     )

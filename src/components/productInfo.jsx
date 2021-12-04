@@ -41,15 +41,15 @@ const ProductInfo = ({ product }) => {
             </Product.PriceInfo>
             <Product.AddCartBox>
                 <Product.QuantityBox>
-                    <Product.QuantityBtn>
+                    <Product.QuantityBtn aria-label="Minus">
                         <img src={MinusIcon} onClick={handleMinusBtn} />
                     </Product.QuantityBtn>
                     <Product.Quantity>{counter}</Product.Quantity>
-                    <Product.QuantityBtn>
+                    <Product.QuantityBtn aria-label="Plus">
                         <img src={PlusIcon} onClick={() => setCounter(counter + 1)} />
                     </Product.QuantityBtn>
                 </Product.QuantityBox>
-                <Product.CartBtn onClick={() => setCart(currentCart + counter)}>
+                <Product.CartBtn onClick={() => setCart(currentCart + counter)} aria-label="Add to Cart">
                     <Product.CartIcon src={CartIcon} />
                     Add to cart
                 </Product.CartBtn>

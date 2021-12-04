@@ -12,7 +12,7 @@ const CartIconComponent = () => {
     return (
         <CartBox>
             <CartIconBox onClick={() => toggleCart(!showCart)}>
-                <CartIcon src={Icon} />
+                <CartIcon src={Icon} alt="cart" />
                 {
                     currentCart === 0 ? ('') : (
                         <CartCounter>{currentCart}</CartCounter>

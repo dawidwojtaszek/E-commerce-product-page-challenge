@@ -16,7 +16,7 @@ const MobileMenu = () => {
         <Menu animate={{ opacity: 1 }} initial={{ opacity: 0 }} exit={{ opacity: 0 }} transition={{ type: 'tween', duration: 0.1 }} ref={menuRef} onClick={closeMenu}>
             <Menu.Box animate={{ x: 0 }} initial={{ x: '-100%' }} exit={{ x: '-100%' }} transition={{ type: 'tween', duration: 0.2 }}>
                 <Menu.BtnBox>
-                    <Menu.CloseBtn onClick={() => toggleMenu(!showMenu)}>
+                    <Menu.CloseBtn onClick={() => toggleMenu(!showMenu)} aria-label="Close menu">
                         <img src={CloseIcon} alt="close" />
                     </Menu.CloseBtn>
                 </Menu.BtnBox>

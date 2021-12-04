@@ -53,17 +53,17 @@ const LightBoxComponent = ({ thumbnails, images, currentPhoto }) => {
             <Gallery>
 
                 <Gallery.CloseBtnBox>
-                    <Gallery.CloseBtn onClick={() => toggleLightBox(!showLightBox)}>
+                    <Gallery.CloseBtn onClick={() => toggleLightBox(!showLightBox)} aria-label="Close lightbox">
                         <Gallery.CloseIcon src={IconClose} alt="close" />
                     </Gallery.CloseBtn>
                 </Gallery.CloseBtnBox>
 
                 <Gallery.PrimeryPhotoBox>
                     <Gallery.PrimeryPhoto as={GatsbyImage} image={images[currentImg]} alt='photo' />
-                    <Gallery.NavBtn left="-28px" onClick={handlePrevBtn}>
+                    <Gallery.NavBtn left="-28px" onClick={handlePrevBtn} aria-label="Previus Photo">
                         <img src={PrevBtn} alt='next' />
                     </Gallery.NavBtn>
-                    <Gallery.NavBtn right="-28px" onClick={handleNextBtn}>
+                    <Gallery.NavBtn right="-28px" onClick={handleNextBtn} aria-label="Next Photo">
                         <img src={NextBtn} alt='next' />
                     </Gallery.NavBtn>
                 </Gallery.PrimeryPhotoBox>

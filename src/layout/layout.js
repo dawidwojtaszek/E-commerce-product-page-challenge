@@ -16,8 +16,9 @@ const Layout = ({ children, title }) => {
         <ThemeProvider theme={theme}>
             <GlobalStyle />
             <Helmet>
-                <meta charSet="utf-8" />
+                <html lang="en" />
                 <title>{title}</title>
+                <description>Solution to the FrontEnd Mentor chalange</description>
                 <link rel="preconnect" href={"https://fonts.googleapis.com"} />
                 <link rel="preconnect" href={"https://fonts.gstatic.com"} crossorigin />
                 <link href={"https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"} rel="stylesheet" />

@@ -20,10 +20,10 @@ const Header = () => {
 
             <Wrap>
                 <Wrap.LeftSide>
-                    <Wrap.Hamburger onClick={() => toggleMenu(!showMenu)}>
+                    <Wrap.Hamburger onClick={() => toggleMenu(!showMenu)} aria-label="Menu">
                         <img src={HamburgerIcon} alt='menu' />
                     </Wrap.Hamburger>
-                    <Wrap.Logo src={Logo} />
+                    <Wrap.Logo src={Logo} alt="logo" />
                     <Wrap.Nav>
                         <Wrap.NavList>
                             <Wrap.NavListElement>

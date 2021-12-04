@@ -64,10 +64,10 @@ const ProductGallery = ({ product }) => {
                 <Gallery.MobileBox>
                     <Gallery.PrimeryPhotoBox>
                         <Gallery.MobileNavBox>
-                            <Gallery.MobileNavBtn onClick={handlePrevBtn}>
+                            <Gallery.MobileNavBtn onClick={handlePrevBtn} aria-label="Previus Photo">
                                 <img src={PrevIcon} alt="previous" />
                             </Gallery.MobileNavBtn>
-                            <Gallery.MobileNavBtn onClick={handleNextBtn}>
+                            <Gallery.MobileNavBtn onClick={handleNextBtn} aria-label="Next Photo">
                                 <img src={NextIcon} alt="next" />
                             </Gallery.MobileNavBtn>
                         </Gallery.MobileNavBox>
