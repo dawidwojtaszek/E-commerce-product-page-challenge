@@ -18,7 +18,6 @@ const Layout = ({ children, title }) => {
             <Helmet>
                 <html lang="en" />
                 <title>{title}</title>
-                <description>Solution to the FrontEnd Mentor chalange</description>
             </Helmet>
             <>
                 <CartProvider>
